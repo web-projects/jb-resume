@@ -21,5 +21,5 @@ https://git.heroku.com/jb-resume.git
 Heroku App URL
 
 ```
-https://jb-resume.herokuapp.com/
+https://jonbianco-resume.herokuapp.com/
 ```
