@@ -141,10 +141,12 @@ footer {
   display: inline-block;
 }
 .contact-info .linkedin {
-  color: unset;
+    color: unset;
 }
 .fa-linkedin {
- color: #1078B3;
+    color: #1078B3;
+    background: white;
+    font-size: 1.5em;
 }
 /*------------------------- Media Queries -------------------------*/
 @media (min-width: 900px) {
