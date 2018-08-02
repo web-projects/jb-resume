@@ -3,7 +3,7 @@
 
 Filename : styles.css
 
-Copyright(c) 2018 Stabile Tech. All rights reserved.
+Copyright(c) 2018 SerenataWeb. All rights reserved.
 
 Description :
 
@@ -139,6 +139,12 @@ footer {
 .contact-info a {
   padding: 10px;
   display: inline-block;
+}
+.contact-info .linkedin {
+  color: unset;
+}
+.fa-linkedin {
+ color: #1078B3;
 }
 /*------------------------- Media Queries -------------------------*/
 @media (min-width: 900px) {
