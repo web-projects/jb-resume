@@ -18,5 +18,5 @@ git remote add origin https://github.com/web-projects/jonbianco-resume
   * https://jonbianco-resume.herokuapp.com/
 
   * set build pack:
-  * heroku buildpacks:set heroku/html
+  * heroku buildpacks:set heroku/php
   * git push heroku master

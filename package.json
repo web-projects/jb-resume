@@ -1,0 +1,30 @@
+{
+  "name": "jbresume",
+  "version": "1.0.0",
+  "description": "My Personal Resume",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-projects/jonbianco-resume.git"
+  },
+  "keywords": [
+    "jon",
+    "bianco",
+    "CTO"
+  ],
+  "author": "Jon Bianco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-projects/jonbianco-resume/issues"
+  },
+  "homepage": "https://github.com/web-projects/jonbianco-resume#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
