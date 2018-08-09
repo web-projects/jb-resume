@@ -14,8 +14,8 @@ git remote add origin https://github.com/web-projects/jb-resume
 
   From the root of the project:
 
-  $ heroku create jonbianco-resume
+  * $ heroku create jonbianco-resume
+  * https://jonbianco-resume.herokuapp.com/
 
-  https://jonbianco-resume.herokuapp.com/
-
-  $ git push heroku master
+  * set build pack: heroku buildpacks:set heroku/html
+  * $ git push heroku master
