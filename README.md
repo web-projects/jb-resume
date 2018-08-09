@@ -1,25 +1,21 @@
 # README
 
-This Jon Bianco's Resume
+SerenataWeb | This Jon Bianco's Resume
+================================================================================
 
-# License
+# REPOSITORY
+git remote add origin https://github.com/web-projects/jb-resume
 
-## Getting started
+# HISTORY
 
-Heroku App Name
+    $ 2018/08/08 - Initial repository.
 
-```
-jb-resume
-```
+# HEROKU HOSTING
 
-Heroku App Repository
+  From the root of the project:
 
-```
-https://git.heroku.com/jb-resume.git
-```
+  $ heroku create jonbianco-resume
 
-Heroku App URL
+  https://jonbianco-resume.herokuapp.com/
 
-```
-https://jonbianco-resume.herokuapp.com/
-```
+  $ git push heroku master
