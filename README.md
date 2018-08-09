@@ -4,7 +4,7 @@ SerenataWeb | This Jon Bianco's Resume
 ================================================================================
 
 # REPOSITORY
-git remote add origin https://github.com/web-projects/jb-resume
+git remote add origin https://github.com/web-projects/jonbianco-resume
 
 # HISTORY
 
@@ -14,8 +14,9 @@ git remote add origin https://github.com/web-projects/jb-resume
 
   From the root of the project:
 
-  * $ heroku create jonbianco-resume
+  * heroku create jonbianco-resume
   * https://jonbianco-resume.herokuapp.com/
 
-  * set build pack: heroku buildpacks:set heroku/html
-  * $ git push heroku master
+  * set build pack:
+  * heroku buildpacks:set heroku/html
+  * git push heroku master
