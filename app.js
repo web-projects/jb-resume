@@ -3,10 +3,11 @@ var app = express();
 
 // Access static content
 //app.use('/', express.static(__dirname + '/public'));
-app.use(express.static('public'));
+app.use(express.static('./public'));
 
-var port = Number(process.env.PORT || 5000);
+// Get port from ENV variable
+app.set('port', process.env.PORT || 3000);
 
-app.listen(port, function() {
-    console.log('Your files will be served through this web server')
+var server = app.listen(app.get('port'), function() {
+    console.log('web server started on port: ' + app.get('port'));
 });
