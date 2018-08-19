@@ -78,28 +78,29 @@ nav {
   top: 0;
   width: 100%;
   margin: 0;
-  padding : 0;
+  padding: 0;
   background: white;
 }
-.nav-ul {
+nav ul {
   text-align: center;
   width: 100%;
   margin: 0;
-  padding : 0;
+  padding: 0;
   list-style: none inside;
   background: white;
 }
-.nav-ul:after {
+nav ul:after {
   content: "";
   display: table;
 }
-.nav-ul li {
+nav ul li {
   display: block;
   position: relative;
   float: left;
 }
-.nav-ul li a {
+nav ul li a {
   display:block;
+  margin-right: 2px;
   padding: 0;
   text-decoration: none;
   width: 200px;
@@ -109,41 +110,45 @@ nav {
   color: red;
   font-weight: bold;
 }
-.nav-ul li li a {
+nav ul li li a {
   font-size: 80%;
 }
-.nav-ul li:hover {
+nav ul li:hover {
   background: #f5f1f5;
 }
 /*--- Sublist Styles ---*/
-.nav-ul ul {
+nav ul ul {
   position: absolute;
   padding: 0;
   left: 0;
   display: none;
 }
-.nav-ul li:hover ul ul {
-  display: none;
-  color: red;
-  background: #f5f1f5;
-}
-.nav-ul li:hover ul li a {
-  color: white;
-}
-.nav-ul li:hover ul {
+/* MAIN MENU HOVER */
+nav ul li:hover ul {
   display:block;
+  opacity: 0.8;
   color: white;
   background: red;
 }
-.nav-ul li ul li:hover a {
+/* MAIN MENU HOVER OVER SUBMENU */
+nav ul li:hover ul li a {
+  color: white;
+}
+/* SUBMENU HOVER */
+nav ul li ul li:hover a {
   color: red;
 }
-/* sub-sublist on hover */
-.nav-ul li li:hover ul {
+/* SUBMENU-SUBMENU HOVER */
+nav ul li li:hover ul {
   display: block;
   margin-left: 200px;
   margin-top: -35px;
   color: red;
+}
+nav ul li:hover ul ul {
+  display: none;
+  color: red;
+  background: #f5f1f5;
 }
 /*------------------------- Work Experience -------------------------*/
 .work {
