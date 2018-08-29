@@ -100,15 +100,15 @@ nav ul li {
 }
 nav ul li a {
   display:block;
-  margin-right: 2px;
-  padding: 0;
   text-decoration: none;
-  width: 200px;
   line-height: 35px;
   padding: 15px 20px;
   text-transform: uppercase;
   color: red;
   font-weight: bold;
+  text-align: center;
+  margin-right: 2px;
+  /* width: 200px; */
 }
 nav ul li li a {
   font-size: 80%;
