@@ -9,6 +9,7 @@ git remote add origin https://github.com/web-projects/jonbianco-resume
 # HISTORY
 
     $ 2018/08/08 - Initial repository.
+    $ 2018/08/31 - Added submenu functionality.
 
 # HEROKU HOSTING
 

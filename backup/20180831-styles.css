@@ -99,27 +99,19 @@ nav ul li {
   float: left;
 }
 nav ul li a {
-  display        :block;
+  display:block;
   text-decoration: none;
-  line-height    : 35px;
-  padding        : 15px 20px;
-  text-transform : uppercase;
-  color          : red;
-  font-weight    : bold;
-  text-align     : center;
-  margin-right   : 2px;
-  /* width          : 200px; */
+  line-height: 35px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 2px;
+  /* width: 200px; */
 }
 nav ul li li a {
   font-size: 80%;
-  color    : white;
-  width    : 100px;
-  left     : 0;
-}
-nav ul.menus .has-submenu .submenu a {
-  margin : 0;
-  padding: 0;
-  color  : white;
 }
 nav ul li:hover {
   background: #f5f1f5;
@@ -133,9 +125,9 @@ nav ul ul {
 }
 /* MAIN MENU HOVER */
 nav ul li:hover ul {
-  display   : block;
-  opacity   : 0.8;
-  color     : white;
+  display:block;
+  opacity: 0.8;
+  color: white;
   background: red;
 }
 /* MAIN MENU HOVER OVER SUBMENU */
@@ -145,63 +137,18 @@ nav ul li:hover ul li a {
 /* SUBMENU HOVER */
 nav ul li ul li:hover a {
   color: red;
-  width: 115px;
 }
 /* SUBMENU-SUBMENU HOVER */
 nav ul li li:hover ul {
   display: block;
-  /* margin-left: 200px;
-  margin-top: -35px; */
-  width  : 200px;
-  color  : white;
+  margin-left: 200px;
+  margin-top: -35px;
+  color: red;
 }
 nav ul li:hover ul ul {
-  display   : none;
-  color     : white;
-  background: #f5f1f5;
-}
-nav ul li a.prett::after {
-  content     : "";
-  width       : 0;
-  height      : 0;
-  border-width: 6px 5px;
-  border-style: solid;
-  border-color: #262823 transparent transparent transparent;
-  position    : absolute;
-  top         : 30px;
-  right       : 9px;
-}
-nav ul li a.prett.open::after {
-  content     : "";
-  top         : 9px;
-  right       : 9px;
-  width       : 0;
-  height      : 0;
-  border-width: 6px 5px;
-  border-style: solid;
-  border-color: transparent transparent #262823 transparent;
-  position    : absolute;
-}
-nav ul.menus .submenu {
-  display   : none;
-  position  : absolute;
-  top       : 0;
-  left      : 115px;
-  width     : 120px;
-  background: red;
-}
-nav ul.menus .submenu li {
-  color: white;
-}
-nav ul.menus .has-submenu a.open ~ .submenu {
-  display: block;
-  width  : 115px;
-}
-nav ul.menus .has-submenu a.close ~ .submenu {
   display: none;
-}
-#menu ul.menus a.open ~ .submenu li:hover {
-  background: #000;
+  color: red;
+  background: #f5f1f5;
 }
 /*------------------------- Work Experience -------------------------*/
 .work {
