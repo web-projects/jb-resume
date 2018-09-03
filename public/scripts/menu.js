@@ -16,4 +16,21 @@ document.addEventListener('click', function(e) {
     //console.log(e.target.classList);
     e.target.classList.toggle('open');
   }
+
+  // Mobile Browsers
+  if(is_touch_device()) {
+
+   $('.bg').on('click', function(){
+
+     $(this).toggleClass('activate');
+
+     $(this).find('ul').slideToggle();
+     return false;
+   });
+ }
+
 }, false);
+
+function is_touch_device() {
+   return (('ontouchstart' in window) || (navigator.MaxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
+}
